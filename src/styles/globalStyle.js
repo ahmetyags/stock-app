@@ -21,16 +21,23 @@ export const flexCenter = {
   gap: 2,
 };
 
+export const flex = {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  gap: 1,
+};
+
 export const flexColumn = {
   display: "flex",
   flexDirection: "column",
-  justifyContent: "center",
   gap: 2,
 };
 
 export const arrowStyle = {
   display: "flex",
   justifyContent: "center",
+  alignItems: "center",
   cursor: "pointer",
   "&:hover": { color: "red" },
 };
